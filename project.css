@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  margin: 0;
+  height: 600px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(https://source.unsplash.com/1600x900/?landscape);
+}
+.box {
+  background: #000000d0;
+  color: white;
+  width: 490px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: none;
+  margin-left: 10px;
+  transition: opacity 0.5s, box-shadow 0.5s;
+  cursor: pointer;
+  background: #7c7c7c2d;
+  color: white;
+}
+button:hover {
+  opacity: 0.7;
+  box-shadow: 10px 10px black;
+}
+.searchbar {
+  border: none;
+  padding: 10px;
+  border-radius: 19px;
+  background: #7c7c7c2d;
+  color: white;
+  outline: none;
+  transition: box-shadow 0.5s;
+  font-size: medium;
+  width: 300px;
+}
+.temp {
+  margin: 0;
+}
+.searchbar:hover {
+  box-shadow: 10px 10px black;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: #333;
+}
+a {
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  color: azure;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: #4caf50;
+}
