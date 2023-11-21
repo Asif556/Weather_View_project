@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff2977;
+}
+
+.info {
+  background: #f2f2f2;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  transition: box-shadow 0.4s;
+}
+input:hover {
+  box-shadow: 10px 10px rgb(125, 123, 123);
+}
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  transition: box-shadow 0.4s;
+}
+textarea:hover {
+  box-shadow: 10px 10px rgb(125, 123, 123);
+}
+
+button {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: #ff2977;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.4s, color 0.3s;
+}
+
+button:hover {
+  background-color: #e62658;
+  box-shadow: 10px 10px rgb(125, 123, 123);
+  color: #333;
+}
