@@ -89,6 +89,6 @@ button {
 
 button:hover {
   background-color: #e62658;
-  box-shadow: 10px 10px rgb(125, 123, 123);
+  box-shadow: 10px 10px rgb(125, 123, 122);
   color: #333;
 }
